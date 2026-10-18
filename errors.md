@@ -17,8 +17,15 @@ Error type: TypeError
 Meaning: The selector doesn’t find an element, so title is null. JavaScript can’t change the text of something that wasn’t found.
 Fix: const title = document.querySelector("#page-title")
 
-Snippet 4: Score counter
+ 4: Score counter
 - Error type: TypeError
-- Simple meaning: The code tries to change score, but const means its value can’t be reassigned.
+- Meaning: The code tries to change score, but const means its value can’t be reassigned.
 - Fix: Change const score = 0 to let score = 0.
   
+5: Shopping list
+- Error type: SyntaxError
+- Meaning: JavaScript can’t read the array because there’s no comma between "avocado" and "banana".
+- each item in an array has to be separated by a comma that is the syntax
+- Fix: const fruits = ["mango", "avocado", "banana"]
+
+- 
