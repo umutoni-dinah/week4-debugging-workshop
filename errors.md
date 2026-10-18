@@ -13,10 +13,10 @@
 - **Fix:** `console.log(city.toUpperCase())`
 
 3. Page title
-Error type: Type Error
-Meaning: The selector doesn’t find an element, so title is null.
-JavaScript can’t change the text of something that wasn’t found.
-Fix: const title = document.querySelector("#page-title")
+-Error type: Type Error
+-Meaning: The selector doesn’t find an element, so title is null.
+-JavaScript can’t change the text of something that wasn’t found.
+-Fix: const title = document.querySelector("#page-title")
 
  4: Score counter
 - Error type: Type Error
