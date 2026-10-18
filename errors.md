@@ -1,16 +1,16 @@
 # Exercise 1: Six Broken Snippets
 
-## 1. Greeting
-- **Error type:** Reference Error(A Reference Error happens when JavaScript tries to use a name it can’t find, such as a variable that was never declared.)
-- **Meaning:** JavaScript is looking for `studentname`, but the declared variable is `studentName`. 
+1. Greeting
+- Error type: Reference Error(A Reference Error happens when JavaScript tries to use a name it can’t find, such as a variable that was never declared.)
+- Meaning: JavaScript is looking for `studentname`, but the declared variable is `studentName`. 
 - JavaScript is case sensitive so `studentName` and `studentname` are treated as different variable names.
 - Only `studentName` was declared.
-- **Fix:** `console.log("Welcome, " + studentName)`
+- Fix: `console.log("Welcome, " + studentName)`
 
-## 2. Shouting
-- **Error type:** Type Error(A Type Error happens when JavaScript tries to use a value in a way that value doesn’t support. In this example, it tries to call a string method that doesn’t exist.)
-- **Meaning:** `toUppercase()` is not the correct string method name.
-- **Fix:** `console.log(city.toUpperCase())`
+2. Shouting
+- Error type: Type Error(A Type Error happens when JavaScript tries to use a value in a way that value doesn’t support. In this example, it tries to call a string method that doesn’t exist.)
+- Meaning: `toUppercase()` is not the correct string method name.
+- Fix: `console.log(city.toUpperCase())`
 
  3: Page title
 - Error type: Type Error
