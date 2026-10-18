@@ -14,7 +14,8 @@
 
 3. Page title
 Error type: Type Error
-Meaning: The selector doesn’t find an element, so title is null. JavaScript can’t change the text of something that wasn’t found.
+Meaning: The selector doesn’t find an element, so title is null.
+JavaScript can’t change the text of something that wasn’t found.
 Fix: const title = document.querySelector("#page-title")
 
  4: Score counter
@@ -28,7 +29,7 @@ Fix: const title = document.querySelector("#page-title")
 - each item in an array has to be separated by a comma that is the syntax
 - Fix: const fruits = ["mango", "avocado", "banana"]
 
-- 6. Countdown
+6: Countdown
 - Error type: Range Error
 - Meaning: The function keeps calling itself without stopping, until JavaScript runs out of space for function calls.
 - Fix: function countdown(n) {
