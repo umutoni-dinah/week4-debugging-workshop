@@ -12,11 +12,11 @@
 - **Meaning:** `toUppercase()` is not the correct string method name.
 - **Fix:** `console.log(city.toUpperCase())`
 
-3. Page title
--Error type: Type Error
--Meaning: The selector doesn’t find an element, so title is null.
--JavaScript can’t change the text of something that wasn’t found.
--Fix: const title = document.querySelector("#page-title")
+ 3: Page title
+- Error type: Type Error
+- Meaning: The selector has a typo, so JavaScript can’t find the heading.
+-  It gets null, then the next line tries to change null’s text.
+- Fix: const title = document.querySelector("#page-title")
 
  4: Score counter
 - Error type: Type Error
