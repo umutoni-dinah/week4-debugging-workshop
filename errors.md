@@ -11,3 +11,9 @@
 - **Error type:** TypeError(A TypeError happens when JavaScript tries to use a value in a way that value doesn’t support. In this example, it tries to call a string method that doesn’t exist.)
 - **Meaning:** `toUppercase()` is not the correct string method name.
 - **Fix:** `console.log(city.toUpperCase())`
+
+3. Page title
+Error type: TypeError
+Meaning: The selector doesn’t find an element, so title is null. JavaScript can’t change the text of something that wasn’t found.
+Fix: const title = document.querySelector("#page-title")
+
